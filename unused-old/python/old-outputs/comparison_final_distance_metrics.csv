@@ -1,0 +1,4 @@
+Method,Distance,Thresholds,Precision,Recall,F1
+Without PCA (Fixed σ=3.5),Euclidean,Fixed,0.8859468575929964,0.6799222222222223,0.7423791660989337
+Adaptive (Euclidean),Euclidean,Relative (0.10/0.33),0.8357,0.682,0.7069
+Adaptive (Mahalanobis),Mahalanobis,Relative (0.10/0.33),0.8089851141005239,0.7149555555555555,0.7099827044881687

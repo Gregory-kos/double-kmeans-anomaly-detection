@@ -1,0 +1,36 @@
+================================================================================
+PERFORMANCE COMPARISON: Density-Based Outlier Detection
+================================================================================
+
+DATASET 1: data202526a_corrupted
+----------------------------------
+Samples:           46,569
+Total Time:        5.45 seconds
+Algorithm Time:    5.27 seconds
+
+
+DATASET 2: synth_large (1 Million samples)
+-------------------------------------------
+Samples:           1,000,000
+Total Time:        266.35 seconds (4 min 26 sec)
+Algorithm Time:    261.22 seconds (4 min 21 sec)
+
+
+COMPARISON
+================================================================================
+
+Scale Factor:      21.5x more samples (1M vs 46.5K)
+Time Factor:       48.8x more time (266s vs 5.5s)
+
+Complexity:        ~O(n^1.2)
+                   (Expected O(n) for preprocessing + O(n) for clustering)
+                   (Slowdown likely due to cache/memory effects at 1M scale)
+
+
+Time per 1,000 samples:
+-----------------------
+Dataset 1:         0.117 sec / 1K samples
+Large dataset:     0.266 sec / 1K samples
+
+→ Large dataset is 2.3x slower per 1K samples
+  (due to worse cache locality and memory access patterns)

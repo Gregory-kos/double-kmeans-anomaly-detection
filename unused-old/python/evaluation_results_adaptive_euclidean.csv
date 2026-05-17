@@ -1,0 +1,16 @@
+Dataset,TP,TN,FP,FN,Precision,Recall,F1-Score,Accuracy
+data202526a_corrupted,0,46978,23,0,0.0,0.0,0,0.9995106487096019
+data202526b_corrupted,0,111163,7,0,0.0,0.0,0,0.9999370333723127
+synth_anisotropic,0,892,57,51,0.0,0.0,0,0.892
+synth_concentric,0,906,43,51,0.0,0.0,0,0.906
+synth_concentric_noisy,0,829,50,121,0.0,0.0,0,0.829
+synth_diagonal,0,905,44,51,0.0,0.0,0,0.905
+synth_easy,0,963,16,21,0.0,0.0,0,0.963
+synth_ellipses,0,915,34,51,0.0,0.0,0,0.915
+synth_grid,0,742,47,51,0.0,0.0,0,0.8833333333333333
+synth_hard,0,689,60,251,0.0,0.0,0,0.689
+synth_mixed_hard,0,846,73,81,0.0,0.0,0,0.846
+synth_s_curves,0,907,42,51,0.0,0.0,0,0.907
+synth_shapes,0,904,45,51,0.0,0.0,0,0.904
+synth_spirals,0,911,38,51,0.0,0.0,0,0.911
+synth_spirals_noisy,0,807,42,151,0.0,0.0,0,0.807
